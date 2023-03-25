@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewModelUnitTestDemo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="welcome_message">Hello World!</string>
+</resources>
