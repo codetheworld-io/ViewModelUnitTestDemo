@@ -2,13 +2,11 @@ package io.codetheworld.viewmodelunittestdemo
 
 import io.codetheworld.viewmodelunittestdemo.helpers.MainDispatcherRule
 import io.mockk.*
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 
-@OptIn(ExperimentalCoroutinesApi::class)
 class LoginViewModelTest {
     private val userRepository: UserRepository = mockk()
     private val sessionManager: SessionManager = mockk()
